@@ -67,7 +67,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/Group 14.png');
+    background-image: url('../images/Group 14.png');
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -185,7 +185,7 @@ font-weight: 400;
   }
 
   .container:hover .overlay {
-    border: 5px solid rgb(20, 19, 20);
+    border: 5px solid red;
     opacity: .7;
   }
   .fa-solid fa-play fa-2xl{
