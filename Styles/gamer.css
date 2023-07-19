@@ -164,7 +164,46 @@ font-weight: 400;
     justify-content: center;
     gap: 20px;
 }
-/*responsive Style*/
+
+
+/*online games section*/
+.online-games-image{
+    position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 410px;
+    left: 508px;
+    border-radius: 8px;
+  }
+
+
+.online-games{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 100px;
+    margin:80px 220px;
+}
+
+
+.online-games-content-section{
+
+    padding-left: 200px;
+}
+/*Responsive section*/
+
 @media screen and (max-width:576px) {
 
   
