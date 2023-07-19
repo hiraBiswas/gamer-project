@@ -203,6 +203,7 @@ font-weight: 400;
     padding-left: 200px;
 }
 
+/*game name section*/
 
 
 .games-collection{
@@ -210,31 +211,28 @@ font-weight: 400;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
-.game-name-first-row{
+.game-name-row{
     display: flex;
+    flex-wrap: wrap;
     padding: 100px 180px;
     justify-content: space-around;
+    gap:50px;
 
 }
 
 .game-name{
     display: flex;
-    width: calc();
-    
+    max-width: 300px;
 border-radius: 50px;
 background: #FFF;
-}
-.game-name-second-row{
-    display: flex;
-    padding: 200px;
-    padding-top: 0px;
-    padding-bottom: 100px;
-    justify-content: space-around;
+
+padding: 20px 15px;
 
 }
+
 
 .game-name h2{
-   
+    white-space: nowrap;
     
     font-size: 1.2rem;
     font-weight: 600;
@@ -248,16 +246,76 @@ background: #FFF;
     border: 2px solid #FF42A5;
     
   }
+
+  /*footer Section*/
+  .footer{
+    margin-top: -200px;
+    background: #0B0223;
+    padding-top: 120px;
+  }
+
   
+  #footer-logo-title{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 2.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .services{
+    display: flex;
+    padding: 50px 300px;
+   justify-content: space-around;
+    color: #FFF;
+text-align: center;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+.social-icon{
+    display: flex;
+    justify-content: center;
+   
+}
+.icon{
+    height: 80px;
+    width: 80px;
+}
 
 
+.policy{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+}
+.policy-section{
+    display: flex;
+    padding: 0px 450px;
+   
+    justify-content: space-around;
+}
+
+#copy-right{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+padding-bottom: 100px;
+}
 
 
 /*Responsive section*/
 
 @media screen and (max-width:576px) {
 
-  
+     
+    .body{
+        width: 100%;
+    }
     .navbar {
         flex-direction: column;
         box-shadow: none;
@@ -351,12 +409,35 @@ background: #FFF;
       .image2 {
         height: 100%;
         width: 70%;
-       
         position: absolute;
         top: 140px;
         left: 140px;
         border-radius: 8px;
       }
+
+      /*Games name collection*/
+
+      .game-name-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 0px;
+        
+        }
+        
+    .game-name{
+       padding: 2px;
+        max-width: 300px;
+    border-radius: 50px;
+    background: #FFF;
+  
+    }
+
+    .game-name h2{
+        
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
     
 
 }
