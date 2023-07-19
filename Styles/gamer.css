@@ -264,6 +264,48 @@ font-weight: 400;
 
     .card-collection{
         flex-direction: column;
-        padding: 5px calc(width-20%)px;
+        
     }
+
+    /*online games section*/
+    .online-games{
+        flex-direction: column-reverse;
+    }
+
+    .online-games{
+        gap: 100px;
+        margin:40px 30px;
+    }
+
+    .online-games-content-section{
+
+     padding: 0px 30px;
+    }
+    .online-games-image{
+        position: relative;
+      top: 0;
+      left: 0;
+    
+    }
+    
+    .image1 {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        border-radius: 8px;
+      }
+    
+      .image2 {
+        height: 100%;
+        width: 70%;
+       
+        position: absolute;
+        top: 140px;
+        left: 140px;
+        border-radius: 8px;
+      }
+    
+
 }
