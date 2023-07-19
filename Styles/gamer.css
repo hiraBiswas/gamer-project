@@ -314,6 +314,8 @@ line-height: normal;
 .social-icon{
     display: flex;
     justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
    
 }
 
@@ -327,7 +329,7 @@ font-weight: 500;
 }
 .policy-section{
     display: flex;
-    padding: 0px 450px;
+    padding: 20px 450px;
    
     justify-content: space-around;
 }
@@ -497,5 +499,10 @@ padding-bottom: 100px;
         
     }
     
+
+}
+
+
+@media screen and (max-width:576px){
 
 }
