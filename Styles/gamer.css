@@ -43,6 +43,7 @@ span {
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    border: none;
 }
 
 .nav-option {
@@ -66,7 +67,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/Group 14.png');
+    background-image: url('/images/Group 14.png');
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -162,9 +163,44 @@ font-weight: 400;
 .card-collection{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
+.container{
+    max-width: 345px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgb(80, 78, 78);
+  }
+
+  .container:hover .overlay {
+    border: 5px solid rgb(20, 19, 20);
+    opacity: .6;
+  }
+  .fa-solid fa-play fa-2xl{
+    
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      
+  }
+  
 
 /*online games section*/
 .online-games-image{
@@ -202,7 +238,7 @@ font-weight: 400;
 
     padding-left: 200px;
 }
-
+ 
 /*game name section*/
 
 
