@@ -535,3 +535,135 @@ padding-bottom: 100px;
 
 
 }
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .banner{
+        flex-direction: column;
+        width: 100%;
+        background-size: 700px 550px ;
+        justify-content: center;
+        
+    }
+    .banner-content{
+        width: 80%;
+        background-size: 500px 300px ;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 100%;
+        padding-left: 200px;
+    }
+
+    .card-collection{
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        gap: 15px;
+    }
+
+    .online-games{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .online-games{
+        gap: 100px;
+        margin:20px 10px;
+    }
+    
+    .online-games-content-section{
+    
+     padding: 0px 10px;
+    }
+    .online-games-image{
+        margin:20px 100px ;
+        margin-bottom: 0px;
+        position: relative;
+      top: 0;
+      left: 0;
+    
+    }
+    
+    .image1 {
+        height: 100%;
+        width: 70%;
+        position: relative;
+        top: 0;
+        left: 0;
+        border-radius: 8px;
+      }
+    
+      .image2 {
+        height: 60%;
+        width: 40%;
+        position: absolute;
+        top: 280px;
+        left: 340px;
+        border-radius: 8px;
+      }
+
+      .games-collection{
+        margin-top: 0px;
+        width: 100%;
+        
+        
+      }
+      .game-name-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 100px 20px;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .game-name{
+        display: flex;
+        max-width: 300px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 2px solid transparent;
+    padding: 10px 5px;
+    
+    }
+
+    .footer{
+        height: auto;
+     }
+     .services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 15px;
+     }
+     .social-icon{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+       
+    }
+    
+    .policy-section{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    
+            padding: 20px 10px;
+           
+        
+        
+    }
+    
+}
